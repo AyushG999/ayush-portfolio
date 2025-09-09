@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "1. Copy `.env.example` to `.env` and fill in your values.\r 2. Run `npm install` in `/client`.\r 3. Run `npm start` to launch the React app.",
+  "main": "index.js",
+  "homepage": "https://AyushG999.github.io/blog-app",
+  "scripts": {
+    "start": "set HOST=0.0.0.0 && craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@headlessui/react": "^2.2.7",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^4.1.13"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

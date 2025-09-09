@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 bg-hero-pattern min-h-screen;
+}
+
+.glass-card {
+  @apply bg-white bg-opacity-90 backdrop-blur-sm border border-white border-opacity-20 shadow-xl;
+}
+
+.prose img {
+  @apply rounded-lg shadow-md;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-500 
+           transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+  
+  .fancy-border {
+    @apply relative before:absolute before:inset-0 before:border-2 before:border-primary-200 
+           before:rounded-lg before:-z-10 before:translate-x-2 before:translate-y-2;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+}
