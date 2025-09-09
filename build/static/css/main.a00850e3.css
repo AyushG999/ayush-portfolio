@@ -1,0 +1,2 @@
+@tailwind base;@tailwind components;@tailwind utilities;.glass-card,.prose img,body{@apply rounded-lg shadow-md}@layer components{.btn-primary,.card-hover,.fancy-border{@apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1}}
+/*# sourceMappingURL=main.a00850e3.css.map*/
