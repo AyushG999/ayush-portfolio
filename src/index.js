@@ -4,7 +4,7 @@ import App from './App';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 
-const basename = process.env.PUBLIC_URL || '/blog-app';
+const basename = process.env.PUBLIC_URL || '/blog-app-client';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
